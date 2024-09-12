@@ -10,7 +10,7 @@ class reversed
         {
             array[i] = Convert.ToInt32(Console.ReadLine());
         }
-        int app=
+        int app =
         Console.Write(array);
     }
 }
