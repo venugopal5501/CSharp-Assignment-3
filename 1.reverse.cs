@@ -10,7 +10,11 @@ class reversed
         {
             array[i] = Convert.ToInt32(Console.ReadLine());
         }
-        int app =
-        Console.Write(array);
+        Console.Write("The reversed array is : ");
+        for(int i=a-1;i>=0;i--){
+            Console.Write(array[i]+" ");
+        }
+       
+        
     }
 }
