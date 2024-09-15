@@ -24,17 +24,15 @@ class multiplication
                 arr2[i, j] = Convert.ToInt32(Console.ReadLine());
             }
         }
-
         for (int i = 0; i < row; i++)
         {
             for (int j = 0; j < row; j++)
             {
                 res[i, j] = 0;
-
-            }
-            for (int k = 0; k < row; k++)
-            {
-                res[i, j] = res[i, j] + arr1[i, k] * arr2[k, j];
+                for (int k = 0; k < row; k++)
+                {
+                    res[i, j] = res[i, j] + arr1[i, k] * arr2[k, j];
+                }
             }
         }
         for (int i = 0; i < row; i++)

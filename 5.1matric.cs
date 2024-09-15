@@ -59,9 +59,7 @@ class matrix
             for (int j = 0; j < column; j++)
             {
 
-
                 result[i, j] = matrixa[i, j] + matrixb[i, j];
-
             }
         }
 
