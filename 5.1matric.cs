@@ -54,14 +54,7 @@ class matrix
             Console.WriteLine();
         }
 
-        for (int i = 0; i < row; i++)
-        {
-            for (int j = 0; j < column; j++)
-            {
-
-                result[i, j] = matrixa[i, j] + matrixb[i, j];
-            }
-        }
+        ,
 
         for (int i = 0; i < row; i++)
         {

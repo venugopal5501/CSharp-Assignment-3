@@ -23,11 +23,11 @@ class matrix
         }
         for (int i = 0; i < a; i++)
         {
-            Console.Write(arr[i]+" ");
+            Console.Write(arr[i] + " ");
         }
         for (int i = 0; i < a; i++)
         {
-            Console.Write(ar[i]+" ");
+            Console.Write(ar[i] + " ");
         }
         Console.WriteLine();
 
@@ -38,11 +38,11 @@ class matrix
                 if (i == j)
                 {
                     c = arr[i] + ar[j];
-                    Console.Write(c+" ");
+                    Console.Write(c + " ");
                 }
             }
         }
-        
+
 
     }
 }
